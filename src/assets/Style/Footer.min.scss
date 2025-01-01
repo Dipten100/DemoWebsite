@@ -1,0 +1,48 @@
+.footer-section{
+    background: var(--text-color);
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    .contents{
+        width: 100%;
+        display: grid;
+        position: relative;
+        gap: .5rem;
+        grid-template-columns: repeat(5, 1fr);
+        .content{
+            padding: 1rem;
+            align-items: center;
+            text-align: center;
+            color: var(--secondary-color);
+            font-size: 1.2rem;
+            .icon{
+                font-size: 2rem;
+                height: 70%;
+            }
+        }
+        .logo{
+            position: absolute;
+            top: -20%;
+            left: 46.5%;
+            background: var(--text-color);
+            color: var(--secondary-color);
+            padding: 1rem;
+            border-radius: 50%;
+        }
+    }
+}
+// /* Screen larger than 1000px? 2 column */
+// @media (min-width: 1000px) {
+//     .footer-section {
+//       .contents {
+//         grid-template-columns: repeat(2, 1fr);
+//       }
+//     }
+//   }
+//   /* Screen larger than 1400px? 3 columns */
+//   @media (min-width: 1400px) {
+//     .footer-section {
+//       .contents {
+        
+//       }
+//     }
+//   }
